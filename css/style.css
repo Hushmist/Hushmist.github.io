@@ -3,7 +3,7 @@
 	padding: 0;
 }
 
-
+/*Phone*/
 @media(max-width: 500px) {
 
 .papirus {
@@ -11,37 +11,45 @@
 	background-size: 83vh;
 	width: 80vw;
 	margin: 0 auto;
+	height: 90vh;
+
 }
 
 .box {
 	padding: 18vh 2vw 0 2vw;
 	height: 60vh;
 }
-
+body {
+	font-family: 'Caveat', serif;
+	background: url("../img/bg3.png") no-repeat ; 
+	background-size: cover; 
+	height: 150vh;
 
 }
-body {
+
+}
+
+@media(min-width: 500px) {
+
+	.papirus {
+		background: url("../img/diplomav1.png") no-repeat top center; 
+		background-size: 83vh;
+		width: 80vh;
+		margin: 0 auto;
+		height: 92vh;
+	}
+
+	.box {
+		padding: 18vh 10vh 0 10vh;
+		height: 60vh;
+	}
+
+	body {
 	font-family: 'Caveat', serif;
 	background: url("../img/bg3.png") no-repeat ; 
 	background-size: cover; 
 	height: 100vh;
 
-}
-@media(min-width: 500px) {
-
-
-
-
-.papirus {
-	background: url("../img/diplomav1.png") no-repeat top center; 
-	background-size: 83vh;
-	width: 80vh;
-	margin: 0 auto;
-}
-
-.box {
-	padding: 18vh 10vh 0 10vh;
-	height: 60vh;
 }
 
 }
@@ -52,9 +60,6 @@ body {
 	width: 100%;
 	height: 100vh;
 }
-
-
-
 
 
 .title {
@@ -105,4 +110,13 @@ a {
 	text-align: center;
 	text-decoration: none;
 	padding: 10vh;
+}
+
+.lang_bar {
+	display: block;
+}
+
+.lang {
+	margin: 0;
+	padding: 2vh;
 }
