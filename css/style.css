@@ -8,15 +8,14 @@
 
 .papirus {
 	background: url("../img/diplomav1.png") no-repeat top center; 
-	background-size: 83vh;
-	width: 80vw;
+	background-size: 70vw 90vh;
+	width: 70vw;
 	margin: 0 auto;
 	height: 90vh;
-
 }
 
 .box {
-	padding: 18vh 2vw 0 2vw;
+	padding: 18vh 8vw 0 8vw;
 	height: 60vh;
 }
 body {
@@ -33,14 +32,14 @@ body {
 
 	.papirus {
 		background: url("../img/diplomav1.png") no-repeat top center; 
-		background-size: 83vh;
+		background-size: 75vh;
 		width: 80vh;
 		margin: 0 auto;
 		height: 92vh;
 	}
 
 	.box {
-		padding: 18vh 10vh 0 10vh;
+		padding: 15vh 10vh 0 10vh;
 		height: 60vh;
 	}
 
