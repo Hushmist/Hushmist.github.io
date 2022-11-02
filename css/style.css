@@ -3,12 +3,30 @@
 	padding: 0;
 }
 
+
+@media(max-width: 500px) {
+
+body {
+	font-family: 'Caveat', serif;
+	background: url("../img/bg3.png") no-repeat ; 
+	background-size: cover; 
+	height: 200vh;
+
+}
+}
+
+@media(min-width: 500px) {
+
 body {
 	font-family: 'Caveat', serif;
 	background: url("../img/bg3.png") no-repeat ; 
 	background-size: cover; 
 	height: 100vh;
+
 }
+
+}
+
 
 .my-container {
 	display: block;
@@ -17,7 +35,7 @@ body {
 }
 
 .papirus {
-	background: url("../img/diplomav1.png") no-repeat center; 
+	background: url("../img/diplomav1.png") no-repeat top center; 
 	background-size: 83vh;
 	width: 80vh;
 	margin: 0 auto;
